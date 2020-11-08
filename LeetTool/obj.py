@@ -1,3 +1,5 @@
+# -*-coding:GBK -*-
+
 class LeetCodeObject:
     @property
     def attr(self):

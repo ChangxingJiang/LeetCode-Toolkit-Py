@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+LICENSE
+LICENSE.txt
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
