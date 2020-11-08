@@ -1,5 +1,22 @@
+from . import ListNode
 from . import Node
 from . import TreeNode
+
+
+def build_ListNode(val):
+    if val is None:
+        return None
+    if isinstance(val, list):
+        if len(val) == 0:
+            return None
+        else:
+            head = node = ListNode(val[0])
+            for i in range(1, len(val)):
+                node.next = ListNode(val[i])
+                node = node.next
+            return head
+    else:
+        return None
 
 
 def build_TreeNode(val):
